@@ -4,13 +4,12 @@ provider "cloudflare" {
   api_key = var.cloudflare_api_key
 }
 
-
-variable "domain" {
-  default = "sievert.fun"
+resource "cloudflare_zone" "sievert_fun" {
+    zone    = "sievert.fun"
 }
 
 resource "cloudflare_record" "www" {
-  domain  = var.domain
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
   name    = "www"
   value   = "203.0.113.10"
   type    = "A"
