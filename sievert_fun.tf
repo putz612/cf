@@ -8,10 +8,122 @@ resource "cloudflare_zone" "sievert_fun" {
     zone    = "sievert.fun"
 }
 
-resource "cloudflare_record" "www" {
+resource "cloudflare_record" "chronograf_0" {
   zone_id  = "69cafae392ac7af5acd635ffe568987d"
-  name    = "www"
-  value   = "203.0.113.10"
+  name    = "chronograf"
+  value   = "192.168.100.170"
   type    = "A"
-  proxied = true
+  proxied = false
+}
+
+resource "cloudflare_record" "chronograf_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "chronograf"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "chronograf_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "chronograf"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "esphome_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "esphome"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "esphome_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "esphome"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "esphome_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "esphome"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "hass_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "hass"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "hass_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "hass"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "hass_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "hass"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "influxdb_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "influxdb"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "influxdb_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "influxdb"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "influxdb_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "influxdb"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "pihole_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "pihole"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "pihole_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "pihole"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "pihole_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "pihole"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
 }
