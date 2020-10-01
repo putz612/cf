@@ -127,3 +127,27 @@ resource "cloudflare_record" "pihole_2" {
   type    = "A"
   proxied = false
 }
+resource "cloudflare_record" "grafana_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "grafana"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "grafana_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "grafana"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "grafana_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "grafana"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
+
