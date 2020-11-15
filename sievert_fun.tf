@@ -151,3 +151,49 @@ resource "cloudflare_record" "grafana_2" {
   proxied = false
 }
 
+resource "cloudflare_record" "grocy_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "grocy"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "grocy_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "grocy"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "grocy_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "grocy"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
+resource "cloudflare_record" "unifi_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "unifi"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "unifi_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "unifi"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "unifi_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "unifi"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
