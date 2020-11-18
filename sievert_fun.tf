@@ -197,3 +197,26 @@ resource "cloudflare_record" "unifi_2" {
   type    = "A"
   proxied = false
 }
+resource "cloudflare_record" "netbox_0" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "netbox"
+  value   = "192.168.100.170"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "netbox_1" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "netbox"
+  value   = "192.168.100.171"
+  type    = "A"
+  proxied = false
+}
+
+resource "cloudflare_record" "netbox_2" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "netbox"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
