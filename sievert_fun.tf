@@ -220,3 +220,12 @@ resource "cloudflare_record" "netbox_2" {
   type    = "A"
   proxied = false
 }
+
+
+resource "cloudflare_record" "swapna" {
+  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  name    = "netbox"
+  value   = "192.168.100.172"
+  type    = "A"
+  proxied = false
+}
