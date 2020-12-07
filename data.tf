@@ -1,3 +1,5 @@
-data "cloudflare_zone" "sievert_fun" {
-    zone    = "sievert.fun"
+data "cloudflare_zones" "sievert_fun" {
+    filter {
+        name = "sievert.fun"
+    }
 }
