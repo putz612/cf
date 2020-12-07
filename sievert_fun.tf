@@ -9,7 +9,7 @@ resource "cloudflare_zone" "sievert_fun" {
 }
 
 resource "cloudflare_record" "chronograf_0" {
-  zone_id  = "69cafae392ac7af5acd635ffe568987d"
+  zone_id  = data.cloudflare_zone.sievert_fun.id
   name    = "chronograf"
   value   = "192.168.100.170"
   type    = "A"
