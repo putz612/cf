@@ -36,7 +36,7 @@ variable "aRecords" {
     ["grocery", "192.168.100.172", false],
     ["pihole", "192.168.5.100", false],
     ["pihole", "192.168.5.101", false],
-    ["pihole", "192.168.5.102", false]
+    ["pihole", "192.168.5.102", false],
     ["unifi", "192.168.5.100", false],
     ["unifi", "192.168.5.101", false],
     ["unifi", "192.168.5.102", false]
