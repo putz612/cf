@@ -27,7 +27,7 @@ variable "aRecords" {
     ["influxdb", "192.168.100.172", false],
     ["grafana", "192.168.100.170", false],
     ["grafana", "192.168.100.171", false],
-    ["grafana", "192.168.100.172", false]
+    ["grafana", "192.168.100.172", false],
     ["netbox", "192.168.100.170", false],
     ["netbox", "192.168.100.171", false],
     ["netbox", "192.168.100.172", false],
