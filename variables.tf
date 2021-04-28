@@ -45,7 +45,8 @@ variable "aRecords" {
     ["home", "192.168.5.102", false],
     ["plex", "192.168.5.100", false],
     ["plex", "192.168.5.101", false],
-    ["plex", "192.168.5.102", false]
+    ["plex", "192.168.5.102", false],
+    ["interplx", "10.220.126.3", false]
   ]
 }
 
