@@ -42,7 +42,10 @@ variable "aRecords" {
     ["unifi", "192.168.5.102", false],
     ["home", "192.168.5.100", false],
     ["home", "192.168.5.101", false],
-    ["home", "192.168.5.102", false]
+    ["home", "192.168.5.102", false],
+    ["plex", "192.168.5.100", false],
+    ["plex", "192.168.5.101", false],
+    ["plex", "192.168.5.102", false]
   ]
 }
 
