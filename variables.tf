@@ -54,7 +54,10 @@ variable "aRecords" {
     ["sonarr", "192.168.5.102", false],
     ["ebooks", "192.168.5.100", false],
     ["ebooks", "192.168.5.101", false],
-    ["ebooks", "192.168.5.102", false]
+    ["ebooks", "192.168.5.102", false],
+    ["esphome", "192.168.5.100", false],
+    ["esphome", "192.168.5.101", false],
+    ["esphome", "192.168.5.102", false]
   ]
 }
 
